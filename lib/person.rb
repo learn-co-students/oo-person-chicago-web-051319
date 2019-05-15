@@ -1,4 +1,5 @@
 class Person
+<<<<<<< HEAD
   attr_accessor :happiness, :hygiene, :bank_account
   attr_reader :name
 
@@ -66,3 +67,40 @@ class Person
     end
   end
 end
+=======
+  attr_accessor :dollars, :happiness_points, :hygiene_points  
+  attr_reader :name
+  attr_writer
+  
+  def get_paid (salary)
+    bank_account += salary 
+    return "all about the benjamins"
+  end
+  
+  def take_bath
+    hygiene_points += 4
+    return "♪ Rub-a-dub just relaxing in the tub ♫".
+  end 
+  
+  def work_out 
+    happiness_points += 3
+    return "♪ another one bites the dust ♫"
+  
+  def call_friend (friend, person)
+    happiness_points += 3 
+    return "Hi #{friend}! It's #{person}. How are you?"
+  end 
+  
+  def start_conversation (person, topic)
+    if topic == politics 
+      happiness_points -= 3 
+      return "blah blah partisan blah lobbyist"
+    elsif topic == weather 
+          happiness_points += 3 
+      "blah blah sun blah rain"
+    else 
+      return "blah blah blah blah blah"
+    end 
+  end 
+end 
+>>>>>>> bb1c7cb0edcdfe7ade3da373481a79ba898e18da
