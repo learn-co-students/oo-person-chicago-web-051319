@@ -17,9 +17,10 @@ class Person
   
   def work_out 
     happiness_points += 3
-    return 
+    return "♪ another one bites the dust ♫"
   
-  def call_friend 
+  def call_friend (friend)
+    happiness_points += 3 
   end 
   
   def start_conversation
