@@ -26,11 +26,13 @@ class Person
   
   def start_conversation (person, topic)
     if topic == politics 
+      happiness_points -= 3 
       return "blah blah partisan blah lobbyist"
     elsif topic == weather 
+          happiness_points += 3 
       "blah blah sun blah rain"
     else 
-      
+      return "blah blah blah blah blah"
   end 
   
 
