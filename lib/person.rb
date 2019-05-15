@@ -33,8 +33,6 @@ class Person
       "blah blah sun blah rain"
     else 
       return "blah blah blah blah blah"
+    end 
   end 
-  
-
-  
 end 
