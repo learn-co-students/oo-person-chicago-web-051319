@@ -11,7 +11,13 @@ class Person
   end
   
   def take_bath
+    hygiene_points += 4
+    return "♪ Rub-a-dub just relaxing in the tub ♫".
   end 
+  
+  def work_out 
+    happiness_points += 3
+    return 
   
   def call_friend 
   end 
