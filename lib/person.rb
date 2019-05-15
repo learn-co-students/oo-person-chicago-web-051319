@@ -3,10 +3,8 @@ class Person
   attr_reader :name
   attr_writer
   
-  
-  
   def get_paid (salary)
-    bank account += salary 
+    bank_account += salary 
     return "all about the benjamins"
   end
   
