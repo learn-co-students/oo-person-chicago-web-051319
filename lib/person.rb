@@ -19,17 +19,16 @@ class Person
     happiness_points += 3
     return "♪ another one bites the dust ♫"
   
-  def call_friend (friend)
+  def call_friend (friend, person)
     happiness_points += 3 
+    return "Hi #{friend}! It's #{person}. How are you?"
   end 
   
-  def start_conversation
+  def start_conversation (person, topic)
+    if topic == politics 
+      return "blah "
   end 
   
-  def clean? 
-  end 
-  
-  def happy?
-  end 
+
   
 end 
